@@ -18,6 +18,8 @@ def save_numpy(no_of_parts):
     no_of_files = len(files)
     images = []
     for file in files:
+        if 'readme' in file:
+            continue
         image = load_image(file=path+file)
         images.append(image)
 

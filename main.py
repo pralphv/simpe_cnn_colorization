@@ -30,12 +30,16 @@ def dateNow():
 
 def predict(model):
     for predict_file in os.listdir('predict'):
+        if 'readme' in predict_file:
+            continue
         predict_image(model=model, file='predict\\'+ predict_file)
 
 def check_newest():
     files = os.listdir('checkpoint')
     newest = int(files[0][6:-3])
     for file in files:
+        if 'readme' in file:
+            continue
         file = int(file[6:-3])
         if file > newest:
             newest = file
