@@ -11,7 +11,12 @@ CNN is used, with a Unet structure.
 Loss function is Mean Absolute Error.
 This is just a toy program so don't expect great results.
 
-Problems with this project are the same with common colorization issues: brownish results due to predictions going to the "mean" to minimize error, inability to differentiate between day and night skies etc.
+Problems with this project are the same with common colorization issues: 
+- brownish results due to predictions going to the "mean" to minimize error, especially objects that it does not recognize
+- inability to differentiate between day and night skies
+
+
+Instructions:
 
 1. Put training images to folder "train". 
 2. The program will check if folder "batches" is empty. 
