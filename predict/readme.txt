@@ -1,0 +1,1 @@
+Put images you want to predict in this folder 
