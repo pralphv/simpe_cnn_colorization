@@ -6,10 +6,12 @@ Dependencies:
 - PIL
 - skimage
 
-This project is a simple colorization program using Keras. 
+This project is a simple colorization program using Keras. Images are turned to LAB format. Input is the L layer and A,B are the target layers. 
 CNN is used, with a Unet structure. 
 Loss function is Mean Absolute Error.
 This is just a toy program so don't expect great results.
+
+Problems with this project are the same with common colorization issues: brownish results due to predictions going to the "mean" to minimize error, inability to differentiate between day and night skies etc.
 
 1. Put training images to folder "train". 
 2. The program will check if folder "batches" is empty. 
