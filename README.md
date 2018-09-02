@@ -20,4 +20,13 @@ Loss function is Mean Absolute Error.
 
 
 Example 1:
-![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/predict_1.jpg)![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/result_1.jpeg)
+
+![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/predict_1.jpg)   ![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/result_1.jpeg)
+
+Example 2:
+
+![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/predict_2.jpg)   ![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/result_2.jpeg)
+
+Example 3:
+
+![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/predict_3.jpg)   ![alt text](https://github.com/pralphv/simple_cnn_colorization/blob/master/photos/result_3.jpeg)
