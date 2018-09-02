@@ -9,6 +9,7 @@ Dependencies:
 This project is a simple colorization program using Keras. 
 CNN is used, with a Unet structure. 
 Loss function is Mean Absolute Error.
+This is just a toy program so don't expect great results.
 
 1. Put training images to folder "train". 
 2. The program will check if folder "batches" is empty. 
